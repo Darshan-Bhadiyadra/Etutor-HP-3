@@ -1,0 +1,900 @@
+/* Mobile Screen */
+@media screen and (max-width:520px) {
+
+    /* Banner */
+
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 25px;
+        padding: 50px 0;
+    }
+
+    .banner-image img {
+        left: 0;
+        transform: translate(0);
+    }
+
+    .h1 {
+        width: 100%;
+    }
+
+    .banner-text p {
+        width: 100%;
+    }
+
+    /* Intro */
+
+    .intro_img_text p {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .intro_img img {
+        width: 95%;
+        background-size: cover;
+    }
+
+    #intro span {
+        color: #EA4567;
+    }
+
+    .intro_img_text p {
+        color: #546E7A;
+        width: 100%;
+    }
+
+    .img-plate img {
+        width: 35px;
+    }
+
+    .intro_plate {
+        width: 80%;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        background-color: white;
+    }
+
+    .plate1 {
+        margin-left: auto;
+    }
+
+    .plate-text p:first-child {
+        color: #263238;
+        font-weight: 400;
+    }
+
+    .plate-text p:nth-child(2) {
+        color: #546E7A;
+        font-size: 12px;
+        width: 90%;
+    }
+
+    /* Course */
+
+    .cardi {
+        border: 1px solid #EA4567;
+    }
+
+    .course-card {
+        margin-top: 20px;
+    }
+
+    /* About */
+
+    .about-text-part .aboutp {
+        width: 100%;
+    }
+
+    .about-text-part {
+        margin-top: 30px;
+    }
+
+    .text p {
+        width: 100%;
+    }
+
+    .why .wp1,
+    .wp2 {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .why img {
+        width: 100%;
+    }
+
+
+    /* Counter */
+
+    .counters {
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .count {
+        text-align: center;
+    }
+
+    /* Catagories */
+
+    .cat-btn span {
+        margin: 0 0 0 5px;
+    }
+
+    .cat-btn button {
+        padding: 2px 15px;
+        font-size: 12px;
+        margin: 12px 8px 0 0;
+    }
+
+    .card-row {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .card-body p {
+        width: 100%;
+    }
+
+    .cat-cards {
+        padding: 0 !important;
+    }
+
+    /* Innovation */
+
+    .inovation-text p {
+        width: 100%;
+    }
+
+    .boxes {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    /* Instructor */
+
+    .instructor-two-part {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .inst2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inst-image img{
+        width: 100%;
+        background-size: cover;
+    }
+
+    .inst-text {
+        margin-top: 30px;
+    }
+
+    .inst-text p {
+        width: 100%;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    /* Testimonial */
+
+    .testimonial-text-btn,
+    .test-slider {
+        width: 100%;
+    }
+
+    .testimonial-text-btn {
+        padding: 20px;
+    }
+
+    .test-slider {
+        padding: 10px 55px;
+    }
+
+    #testimonial .owl-nav {
+        position: relative;
+        display: flex;
+    }
+
+    #testimonial .owl-nav .owl-prev,
+    #testimonial .owl-nav .owl-next {
+        position: relative;
+        left: 50px;
+        width: 48px;
+        transform: translate(0);
+        margin: auto;
+    }
+
+    #testimonial .owl-nav .owl-next {
+        left: auto;
+        right: 48px;
+    }
+
+    /* Membership */
+
+    .member-text,
+    .plan-card {
+        gap: 20px;
+    }
+
+    .member-text p {
+        width: 100%;
+    }
+
+    .pcard {
+        width: 100%;
+    }
+
+    /* Update */
+
+    .update-two-part {
+        gap: 40px;
+    }
+
+    .update-text h2 {
+        font-size: 32px;
+        width: 95%;
+    }
+
+    .update-text p {
+        width: 95%;
+    }
+
+    .update-text input {
+        padding: 8px;
+        width: 100%;
+    }
+
+    .sub {
+        right: 3%;
+    }
+
+    .bg {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .bg img {
+        width: 100%;
+    }
+
+    .chair img {
+        width: 300px;
+    }
+
+    .chair {
+        position: absolute;
+        top: 50px;
+        right: 100px;
+    }
+
+    /* Footer */
+
+    .footer-cols {
+        gap: 40px;
+    }
+
+    .logo-cols p {
+        width: 95%;
+    }
+
+    .four-cols {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        row-gap: 20px;
+    }
+
+    .logo-cols,
+    .four-cols {
+        width: 100%;
+    }
+
+    /* Common Css */
+
+    .intro_two_part,
+    .cardsi,
+    .about-two-part .counters,
+    .text-btn,
+    .testimonial-two-part,
+    .member-text,
+    .plan-card,
+    .update-two-part,
+    .footer-cols {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+
+    .gap-3 {
+        gap: 10px !important;
+    }
+
+    /* Intro */
+
+    .five-type span {
+        font-size: 12px;
+    }
+
+    .profile span {
+        font-size: 11px;
+    }
+
+    .cat-cards .signup {
+        padding: 5px 10px;
+        font-size: 9px;
+        font-weight: 400;
+        border: 1px solid #EA4567;
+    }
+
+    /* about */
+
+    .why .wp1 {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .why .wp2 {
+        font-size: 13px;
+    }
+
+    .buttons .button,
+    .signup {
+        padding: 8px 14px;
+    }
+
+    /* catagories */
+
+    .cat-cards .signup {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    /* Instructor */
+
+    .inst-text p {
+        font-size: 12px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    /* Update */
+
+    .update-text h2 {
+        font-size: 28px;
+        width: 95%;
+    }
+
+    .chair img {
+        width: 220px;
+    }
+
+    .chair {
+        top: 55px;
+        right: 83px;
+    }
+
+    /* Testimonial */
+
+    #testimonial .owl-nav {
+        position: relative;
+        display: flex;
+    }
+
+    #testimonial .owl-nav .owl-prev,
+    #testimonial .owl-nav .owl-next {
+        position: relative;
+        left: 20px;
+        width: 48px;
+        transform: translate(0);
+        margin: auto;
+    }
+
+    #testimonial .owl-nav .owl-next {
+        left: auto;
+        right: 20px;
+    }
+
+}
+
+/* Tablet Screen */
+@media screen and (min-width:521px) and (max-width:991px) {
+
+    /* Header */
+
+    .nav-item a {
+        font-size: 12px;
+    }
+
+    header .button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    /* Banner */
+
+    .banner-image img {
+        transform: translate(11.3%);
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .banner-text p {
+        width: 95%;
+        font-size: 16px;
+    }
+
+    /* Course */
+
+    .cardi {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #EA4567;
+        margin-top: 25px;
+    }
+
+    .cardi p {
+        width: 100%;
+    }
+
+    /* Intro */
+
+    .intro_img {
+        width: 80%;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    .intro_img_text p {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .plate-text p:nth-child(2) {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /* About */
+
+    .about-text-part .aboutp {
+        width: 95%;
+    }
+
+    .text p {
+        width: 90%;
+    }
+
+    .digit p {
+        font-size: 32px;
+    }
+
+    .why .wp1,
+    .wp2 {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .why img {
+        width: 100%;
+    }
+
+    /* Instructor */
+
+    .inst-text p {
+        font-size: 13px;
+        width: 90%;
+        text-align: justify;
+    }
+
+    .inst-image img {
+        width: 100%;
+        background-size: cover;
+    }
+
+    /* Catagories */
+
+    .card-row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .btn-price button {
+        font-size: 12px;
+        padding: 3px 12px;
+    }
+
+    .card-body p {
+        width: 85%;
+        font-size: 13px;
+    }
+
+    .five-type span img {
+        width: 13px;
+    }
+
+    .five-type span {
+        font-size: 11px;
+    }
+
+    .profile span {
+        font-size: 11px;
+    }
+
+    .cat-cards .signup {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    /* Innovation */
+
+    .inovation-text p {
+        width: 75%;
+    }
+
+    .position-absolute {
+        right: 55px;
+    }
+
+    /* Member */
+
+    .pcard {
+        width: 100%;
+    }
+
+    .pcard p {
+        font-size: 12px;
+    }
+
+    /* Testimonial */
+
+    .testimonial-text-btn,
+    .test-slider {
+        width: 100%;
+    }
+
+    .testimonial-text-btn {
+        padding: 20px;
+    }
+
+    .test-slider {
+        padding: 10px 55px;
+    }
+
+    #testimonial .owl-nav {
+        position: relative;
+        display: flex;
+    }
+
+    #testimonial .owl-nav .owl-prev,
+    #testimonial .owl-nav .owl-next {
+        position: relative;
+        left: 130px;
+        width: 48px;
+        transform: translate(0);
+        margin: auto;
+    }
+
+    #testimonial .owl-nav .owl-next {
+        left: auto;
+        right: 130px;
+    }
+
+    /* Update */
+
+    .update-two-part {
+        gap: 40px;
+    }
+
+    .update-text h2 {
+        font-size: 42px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .update-text p {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .update-text input {
+        padding: 8px;
+        width: 70%;
+        margin-left: 105px;
+        margin-top: 12px;
+    }
+
+    .update-image {
+        width: 70%;
+        background-size: cover;
+    }
+
+    .emaili {
+        position: absolute;
+        top: 21px !important;
+        left: 18% !important;
+    }
+
+    .sub {
+        position: absolute;
+        top: 19px !important;
+        right: 16% !important;
+    }
+
+    .sub {
+        right: 31%;
+    }
+
+    .bg {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .bg img {
+        width: 100%;
+    }
+
+    .chair img {
+        width: 400px;
+    }
+
+    .chair {
+        position: absolute;
+        top: 50px;
+        right: 130px;
+    }
+
+
+    /* Footer */
+
+    .footer-cols {
+        gap: 40px;
+    }
+
+    .inner-col p {
+        width: 85%;
+    }
+
+    .four-cols {
+        display: grid !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+        row-gap: 20px;
+    }
+
+    .logo-cols {
+        width: 100%;
+    }
+
+    .four-cols {
+        width: 100%;
+    }
+
+    /* Common Css */
+
+    .intro_two_part,
+    .course_two_part,
+    .testimonial-two-part,
+    .member-text,
+    .update-two-part,
+    .footer-cols {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/*Laptop Screen */
+@media screen and (min-width:992px) and (max-width:1024px) {
+
+    /* Header */
+
+    .nav-item a {
+        font-size: 13px;
+    }
+
+    header .button {
+        font-size: 14px;
+        padding: 5px 20px;
+    }
+
+    /* Banner */
+
+    .banner-image img {
+        left: 5px;
+        transform: translate(12%);
+    }
+
+    h1 {
+        width: 100%;
+    }
+
+    .banner-text p {
+        width: 100%;
+    }
+
+    /* Intro */
+
+    .intro_img_text p {
+        width: 85%;
+        font-size: 13px;
+    }
+
+    .plate-text p:nth-child(2) {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    /* Course */
+
+    .cardsi {
+        gap: 10px;
+    }
+
+    .cardi p {
+        font-size: 12px;
+    }
+
+    .course-text h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .cardi h5 {
+        font-size: 18px;
+    }
+
+    /* About */
+
+    .about-text-part .aboutp {
+        font-size: 13px;
+    }
+
+    .text p {
+        font-size: 12px;
+        width: 67%;
+    }
+
+    .digit p {
+        font-size: 40px;
+    }
+
+    .why .wp1 {
+        font-size: 13px;
+        width: 46%;
+    }
+
+    .why .wp2 {
+        font-size: 12px;
+        width: 96%;
+    }
+
+    /* Catagories */
+
+    .btn-price button {
+        font-size: 12px;
+        padding: 3px 12px;
+    }
+
+    .card-body p {
+        width: 85%;
+        font-size: 13px;
+    }
+
+    .five-type span img {
+        width: 13px;
+    }
+
+    .five-type span {
+        font-size: 11px;
+    }
+
+    .profile span {
+        font-size: 11px;
+    }
+
+    .cat-cards .signup {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    /* Innovations */
+
+    .inovation-text p {
+        font-size: 14px;
+        width: 55%;
+        margin: 10px 0 0;
+    }
+
+    /* Instructor */
+
+    .inst-text p {
+        font-size: 13px;
+        width: 90%;
+        text-align: justify;
+    }
+
+    .inst-image img {
+        width: 100%;
+        background-size: cover;
+    }
+
+    /* Testimonial Slider */
+
+    #testimonial .owl-nav .owl-prev,
+    #testimonial .owl-nav .owl-next {
+        left: -64%;
+    }
+
+    #testimonial .owl-nav .owl-next {
+        left: auto;
+        right: 143%;
+    }
+
+    /* Memmbership */
+
+    .pcard p {
+        font-size: 12px;
+    }
+
+    /* Update */
+
+    .update-text h2 {
+        font-size: 34px;
+    }
+
+    .update-text p {
+        font-size: 12px;
+        width: 78%;
+    }
+
+    .update-text input {
+        width: 80%;
+    }
+
+    .sub {
+        right: 22%;
+    }
+
+    .bg {
+        top: -70px;
+        left: 45px;
+    }
+
+    .bg img {
+        width: 100%;
+    }
+
+    .chair img {
+        width: 370px;
+    }
+
+    .chair {
+        top: 55px;
+        right: 176px;
+    }
+
+    /* Footer */
+
+    .logo-cols {
+        width: 25%;
+    }
+
+    .four-cols {
+        width: 75%;
+    }
+
+}
